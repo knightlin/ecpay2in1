@@ -1,0 +1,23 @@
+{
+    "name": "knightlin/ecpay2in1",
+    "description": "Ecpay2in1 for Laravel 5",
+    "license": "MIT",
+    "type": "package",
+    "keywords": ["ecpay"],
+    "version":"1.0.1012",
+    "authors": [
+        {
+            "name": "Knight Lin"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {  
+        "classmap": [
+            "src/lib"
+        ],
+        "psr-4": {
+            "knightlin\\Ecpay2in1\\": "src/"
+        }
+    }
+}
